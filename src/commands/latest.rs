@@ -18,7 +18,7 @@ pub async fn run(ctx: &Context) -> String {
 
         send_message(ctx_arc, state.channel_id, cache).await;
 
-        format!("")
+        format!("Here's the latest list")
     } else {
         format!("Failed to get typemap")
     }
